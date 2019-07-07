@@ -35,6 +35,7 @@ namespace BattleShipGame.GameObjects
 
         public void PlayToEnd()
         {
+            Console.WriteLine("\nLets, start a Game! \n\n");
             Player.PrintBoards();
 
             while (!Player.HasLost)

@@ -9,4 +9,7 @@
     <Folder Include="BoardObjects\" />
     <Folder Include="GameObjects\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="BoardObjects\FiringShotOnBoard.cs" />
+  </ItemGroup>
 </Project>
