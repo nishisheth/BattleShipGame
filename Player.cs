@@ -121,7 +121,7 @@ namespace BattleShipGame
             BoardCorrdinates coordinates = null;
 
             //Take user input to fire a shot
-            Console.WriteLine("Please enter coordinates to fire a shot: ");
+            Console.WriteLine("\nPlease enter coordinates to fire a shot: ");
             Console.Write("row: ");
             var row = int.Parse(Console.ReadLine());
             Console.Write("column: ");
@@ -161,7 +161,7 @@ namespace BattleShipGame
             Console.WriteLine(" > \"It's a Hit!\"");
             if (ship.IsSunk)
             {
-                Console.WriteLine(" > \"You have sunk " + ship.Name + ".\"");
+                Console.WriteLine(" > \"You have sunk " + ship.Name + ".\"\n\n");
             }
             return ShotResult.Hit;
         }
